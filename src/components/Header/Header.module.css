@@ -1,0 +1,45 @@
+/* Header styles */
+
+.logo {
+    font-family: 'Dancing Script', cursive;
+    user-select: none;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+}
+
+.link { 
+    margin: 0px 12px;
+    font-weight: bold;
+}
+
+
+
+/* Responsive Part */
+
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+
+    .logo {
+        font-size: x-large;
+    }
+
+}
+
+

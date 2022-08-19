@@ -1,0 +1,51 @@
+/* modal styles */
+
+.modal_copy {
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    background-color: #FB56E6;
+    align-items: center;
+    border-radius: 5px;
+    width: 80%;
+}
+
+.link {
+    font-size: medium;
+    color: rgb(49, 49, 49);
+}
+
+.icon {
+    font-size: larger;
+    color: rgb(49, 49, 49);
+}
+
+
+/* Responsive Part */
+
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+    .link {
+        font-size: small;
+    }
+
+    .modal_copy {
+        width: 100%; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+    .icon {
+        font-size: large;
+    }
+}

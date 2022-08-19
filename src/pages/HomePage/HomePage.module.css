@@ -1,0 +1,80 @@
+/* Home Page styles */
+
+.home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Logo Styles */
+.home_logo {
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+    margin-bottom: 25px;
+}
+
+    
+
+.home_description {
+    font-weight: 600;
+    font-size: x-large;
+    letter-spacing: 0.3px;
+    color: rgb(100, 100, 100);
+    line-break: auto;
+    max-width: 430px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+
+
+.modal {
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+
+/* Responsive Part */
+
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+    .home_description {
+        font-size: large;
+        line-height: 33px;
+    }
+    .no_link {
+        font-size: large;
+    }
+
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+    .home_description {
+        letter-spacing: 0.2px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    .home_logo {
+        font-size: 50px;
+    }
+    .no_link {
+        font-size: medium;
+    }
+
+}
+

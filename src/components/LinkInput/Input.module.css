@@ -1,0 +1,73 @@
+
+/* Input and button together */
+.input_group {
+    display: flex;
+    height: 40px;
+}
+
+
+/* input  styles */
+.input {
+    height: auto;
+    border: none;
+    background-color: #e0e0e0;
+    width: 100%;
+    padding: 20px 15px;
+    border-radius: 8px 0px 0px 8px;
+}
+
+
+.input:focus { 
+    outline: none;
+}
+
+
+/* Button styles */
+.btn {
+    background-color: #FB56E6;
+    border: none;
+    height: auto;
+    width: 160px;
+    font-weight: 700;
+    color: rgb(49, 49, 49);
+    font-size: medium;
+    letter-spacing: 0.3px;
+    border-radius: 0px 8px 8px 0px;
+    transition: 0.15s ease-in-out;
+}
+
+.btn:hover {
+    background-color: rgba(251, 86, 229, 0.8);
+}
+
+
+
+
+/* Responsive Part */
+
+
+/* 992-1200 */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*768-992 */
+@media screen and (max-width: 992px) {
+    .btn {
+        width: 130px;
+    }
+}
+
+
+/*0-576 */
+@media screen and (max-width: 576px) {
+    .btn {
+        width: 100px;
+        font-weight: 600;
+        letter-spacing: 0.1px;
+        font-size: small;
+    }
+    .input::placeholder {
+        font-size: smaller;
+    }
+}
