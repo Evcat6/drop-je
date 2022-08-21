@@ -11,6 +11,9 @@ const Layout = () => {
         <Header/>
 
             <Outlet />
+            <footer>
+                <div className='wave' ></div>
+            </footer>
         </>
 
     );
